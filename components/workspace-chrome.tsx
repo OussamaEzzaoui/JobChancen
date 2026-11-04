@@ -10,7 +10,6 @@ import {
   Radio,
   Settings2,
   SlidersHorizontal,
-  Sparkles,
   LogOut,
 } from 'lucide-react';
 import Link from 'next/link';
@@ -42,16 +41,16 @@ export function WorkspaceBrand({ compact = false }: { compact?: boolean }) {
       className="flex items-center gap-3 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
       href="/"
     >
-      <div className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground shadow-sm">
-        <Sparkles className="size-4" />
+      <div className="grid size-10 place-items-center rounded-xl bg-emerald-700 text-white shadow-sm">
+        <BriefcaseBusiness className="size-4" />
       </div>
       {!compact ? (
         <div>
           <p className="font-heading text-[15px] font-semibold tracking-[-0.02em]">
-            WerkMatch
+            JobChancen
           </p>
           <p className="text-[11px] text-muted-foreground">
-            Application workspace
+            AI-powered career assistant
           </p>
         </div>
       ) : null}

@@ -118,7 +118,7 @@ export function ManualJobForm() {
             id="description"
             minLength={40}
             name="description"
-            placeholder="Paste the complete job description here. WerkMatch will use it when matching and tailoring documents."
+            placeholder="Paste the complete job description here. JobChancen will use it when matching and tailoring documents."
             required
           />
         </Field>

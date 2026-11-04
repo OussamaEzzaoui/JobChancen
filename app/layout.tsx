@@ -17,21 +17,21 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000',
   ),
-  title: 'WerkMatch · Your job radar',
+  title: 'JobChancen | AI-Powered Career Assistant',
   description:
-    'Find technical working-student roles, understand every match, and generate verified application documents on demand.',
+  'Discover Werkstudent opportunities, evaluate job matches using AI, and generate personalized CVs and cover letters.',
   openGraph: {
-    title: 'WerkMatch · Your job radar',
+    title: 'JobChancen · Your job radar',
     description:
       'Find technical working-student roles and generate verified application documents on demand.',
     images: [
-      { url: '/og.png', width: 1792, height: 1024, alt: 'WerkMatch job radar' },
+      { url: '/og.png', width: 1792, height: 1024, alt: 'JobChancen job radar' },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WerkMatch · Your job radar',
+    title: 'JobChancen · Your job radar',
     description:
       'Find technical working-student roles and generate verified application documents on demand.',
     images: ['/og.png'],

@@ -103,14 +103,14 @@ function Brand() {
   return (
     <div className="flex items-center gap-3">
       <div className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground shadow-sm">
-        <Sparkles className="size-4" />
+        <BriefcaseBusiness className="size-4" />
       </div>
       <div>
         <p className="font-heading text-[15px] font-semibold tracking-[-0.02em]">
-          WerkMatch
+          JobChancen
         </p>
         <p className="text-[11px] text-muted-foreground">
-          Application workspace
+          AI-powered career assistant
         </p>
       </div>
     </div>
@@ -671,7 +671,7 @@ export default async function Home({ searchParams }: HomeProps) {
                 <CardHeader>
                   <CardTitle>Run your first live search</CardTitle>
                   <CardDescription className="leading-relaxed">
-                    WerkMatch will collect technical working-student listings,
+                    JobChancen will collect technical working-student listings,
                     enforce your location policy, score them against verified
                     facts, and send Telegram alerts for high matches.
                   </CardDescription>
@@ -682,7 +682,7 @@ export default async function Home({ searchParams }: HomeProps) {
 
           <footer className="mt-8 flex flex-col gap-2 border-t border-border/70 py-5 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
             <span>
-              WerkMatch only generates application documents when you ask.
+              JobChancen only generates application documents when you ask.
             </span>
             <span className="inline-flex items-center gap-1.5">
               <CircleUserRound className="size-3.5" />

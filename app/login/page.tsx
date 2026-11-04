@@ -37,7 +37,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
           </div>
           <div>
             <p className="font-heading text-lg font-semibold tracking-[-0.03em]">
-              WerkMatch
+              JobChancen
             </p>
             <p className="text-xs text-muted-foreground">
               Private application workspace

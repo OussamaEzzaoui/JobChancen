@@ -51,7 +51,7 @@ export default function DemoPage() {
       <header className="flex flex-wrap items-center justify-between gap-4">
         <Link href="/" className="inline-flex items-center gap-2 font-semibold">
           <Radar className="text-primary" />
-          WerkMatch
+          JobChancen
         </Link>
         <Link href="/login" className={buttonVariants({ variant: 'outline' })}>
           Sign in to your workspace <ArrowRight />
@@ -257,7 +257,7 @@ export default function DemoPage() {
           className="inline-flex items-center gap-2 text-sm text-muted-foreground"
         >
           <ArrowLeft className="size-4" />
-          Back to WerkMatch
+          Back to JobChancen
         </Link>
       </footer>
     </main>

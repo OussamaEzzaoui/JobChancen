@@ -126,7 +126,7 @@ export default async function ProfilePage({ searchParams }: ProfilePageProps) {
 
         {query.error || error ? (
           <div className="mb-5 rounded-xl border border-red-300/60 bg-red-50 px-4 py-3 text-sm text-red-950">
-            WerkMatch could not load or verify the profile. Please try again.
+            JobChancen could not load or verify the profile. Please try again.
           </div>
         ) : null}
 
@@ -195,7 +195,7 @@ export default async function ProfilePage({ searchParams }: ProfilePageProps) {
                 <div>
                   <CardTitle>Approve this factual profile</CardTitle>
                   <CardDescription className="mt-1 leading-relaxed">
-                    Approval locks these facts as the evidence WerkMatch may
+                    Approval locks these facts as the evidence JobChancen may
                     use. Tailored documents can rephrase or select them, but
                     cannot add unsupported claims.
                   </CardDescription>

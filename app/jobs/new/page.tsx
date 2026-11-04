@@ -17,7 +17,7 @@ export default async function NewJobPage() {
   return (
     <WorkspacePage
       active="/"
-      description="Paste a listing from any job board. WerkMatch saves the original text and opens it in your inbox for matching and document generation."
+      description="Paste a listing from any job board. JobChancen saves the original text and opens it in your inbox for matching and document generation."
       title="Add a job"
     >
       <Card className="bg-card/90">

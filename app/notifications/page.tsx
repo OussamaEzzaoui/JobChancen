@@ -63,7 +63,7 @@ export default async function NotificationsPage() {
   return (
     <WorkspacePage
       active="/notifications"
-      description="A history of strong-match alerts that WerkMatch sent to your Telegram chat."
+      description="A history of strong-match alerts that JobChancen sent to your Telegram chat."
       title="Notifications"
     >
       {notifications.length === 0 ? (

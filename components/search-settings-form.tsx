@@ -86,7 +86,7 @@ export function SearchSettingsForm(props: SearchSettingsFormProps) {
         <legend className="font-heading text-lg font-semibold">
           Telegram alerts
         </legend>
-        <div className="space-y-2"><Label htmlFor="telegramChatId">Your Telegram chat ID</Label><Input id="telegramChatId" name="telegramChatId" defaultValue={props.telegramChatId ?? ''} placeholder="123456789" pattern="-?[0-9]{1,20}" /><p className="text-xs leading-relaxed text-muted-foreground">Start a conversation with the WerkMatch bot first, then enter your own chat ID. Alerts are sent only to this account’s configured destination.</p></div>
+        <div className="space-y-2"><Label htmlFor="telegramChatId">Your Telegram chat ID</Label><Input id="telegramChatId" name="telegramChatId" defaultValue={props.telegramChatId ?? ''} placeholder="123456789" pattern="-?[0-9]{1,20}" /><p className="text-xs leading-relaxed text-muted-foreground">Start a conversation with the JobChancen bot first, then enter your own chat ID. Alerts are sent only to this account’s configured destination.</p></div>
         <CheckboxRow
           defaultChecked={props.telegramEnabled}
           description="Send a Telegram message when a newly evaluated job reaches your threshold."

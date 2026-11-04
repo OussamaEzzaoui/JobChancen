@@ -14,7 +14,7 @@ export function PublicHome() {
           className="flex items-center gap-2 text-lg font-semibold"
         >
           <Radar className="text-primary" />
-          WerkMatch
+          JobChancen
         </Link>
         <Link href="/login" className={buttonVariants({ variant: 'outline' })}>
           Sign in
@@ -123,7 +123,7 @@ export function PublicHome() {
         </h2>
         <div className="space-y-4 leading-relaxed text-muted-foreground">
           <p>
-            WerkMatch is a personal software project by Marwan Abdelsamad. The
+            JobChancen is a personal software project by Marwan Abdelsamad. The
             public demo shows the workflow with fictional data, while each
             signed-in account has its own private workspace.
           </p>
@@ -141,7 +141,7 @@ export function PublicHome() {
         </div>
       </section>
       <footer className="mx-auto flex max-w-6xl flex-wrap justify-between gap-4 border-t px-5 py-6 text-sm text-muted-foreground">
-        <span>WerkMatch · A personal job-search project</span>
+        <span>JobChancen · A personal job-search project</span>
         <Link href="/login">Private workspace</Link>
       </footer>
     </main>

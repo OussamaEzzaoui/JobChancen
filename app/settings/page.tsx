@@ -23,7 +23,7 @@ export default async function SettingsPage() {
   return (
     <WorkspacePage
       active="/settings"
-      description="Control scheduled discovery and the match score required before WerkMatch sends a Telegram alert."
+      description="Control scheduled discovery and the match score required before JobChancen sends a Telegram alert."
       title="Search settings"
     >
       <Card className="bg-card/90">

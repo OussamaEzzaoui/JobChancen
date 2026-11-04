@@ -102,11 +102,15 @@ export async function POST(request: Request) {
       }
     }
     return NextResponse.json({ facts, cvKey, coverKey, cvHash });
-  } catch {
+  } catch (error) {
+    console.error('WERKMATCH UPLOAD ERROR:', error);
+
     return NextResponse.json(
       {
         error:
-          'Could not process these templates. Check that both files are complete UTF-8 LaTeX documents and try again.',
+          error instanceof Error
+            ? error.message
+            : 'Unknown upload error',
       },
       { status: 422 },
     );

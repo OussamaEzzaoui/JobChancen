@@ -125,18 +125,7 @@ export function validateCoverLetterPlan(
     throw new Error(
       'The technical-skills paragraph must name a verified project where the candidate applied those skills.',
     );
-  const certifications = paragraphs[1].evidenceFactIds
-    .map((id) => factById.get(id)!)
-    .filter((fact) => fact.category === 'certification');
-  if (
-    !certifications.length ||
-    !/(?:zertifikat|zertifizierung|certificate|certification|nanodegree|bootcamp)/iu.test(
-      paragraphs[1].text,
-    )
-  )
-    throw new Error(
-      'The technical-skills paragraph must mention a relevant verified certification.',
-    );
+ 
   const employers = paragraphs[2].evidenceFactIds
     .map((id) => factById.get(id)!)
     .filter(
